@@ -25,7 +25,7 @@ read c
 echo
 if [ $c == 1 ]
 then
-  if [ $new_size == $old_size ]
+  if [ $new_size >> $old_size ]
   then
   tail -f $path | while read a
    do 
